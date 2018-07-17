@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "http://www.python.org"
+url = "https://github.com/CoalitionHouse/GMRIT_InternRecruitTest/blob/master/Buckton_Castle"
 response = requests.get(url)
 # parse html
 page = str(BeautifulSoup(response.content))
